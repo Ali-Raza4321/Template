@@ -1,0 +1,376 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.black{
+    width: 100%;
+    height: 40Fpx;
+    text-align: end;
+    color: white;
+    position: fixed;
+    padding: 0 20px;
+    font-size: 30px;
+    background-color:black;
+}
+.manbox{
+    width:23%;
+    height:auto;
+    top: 40px;
+    vertical-align: top;
+    position: sticky;
+    background-color: white;
+    float: left;  
+    position: relative;
+}
+#but{
+    width: 150px;
+    height: 40px;
+    border: none;
+    background-color: black;
+    color: white;
+    position: absolute;
+}
+.box1{
+    width: 50px;
+    height: 50px;
+    /* border: 1px solid; */
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.box1 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.box1 p{
+    margin-top: -50px;
+    margin-left: 80px;
+}
+.box2{
+    width: 150px;
+    height: 30px;
+    /* border: 1px solid; */
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.box2 i{
+    margin-left: 20px;
+}
+.box3{
+    width: 100%;
+    height: 50px;
+    font-size: 30px;
+    border-top: 1px solid gray;
+    margin-top: 50px;
+}
+.box4{
+    width: 100%;
+    height: 40px;
+    padding: 10px 10px;
+    color: white;
+    background-color: #2196F3;
+}
+.box4 i{
+    color: white;
+    padding: 0 20px;
+}
+.box5{
+    width: 100%;
+    height: 40px;
+    padding: 10px 10px;
+    background-color:white;
+}
+.box5 i{
+    padding: 0 20px;
+}
+.box4:hover{
+    background-color: gray;
+    color: black;
+}
+.box5:hover{
+    background-color: gray;
+}
+/* <-----manbox-----> */
+
+
+
+.manbox2{
+    width:77%;
+    height: 280vh;
+    background-color: rgb(208, 205, 205);
+    display: inline-block;
+}
+.box6{
+    width: 200px;
+    height:35px;
+    margin-top: 100px;
+    font-size: 25px;
+}
+.box6 i{
+    color: black;
+}
+.box7{
+    width:calc(25% - 20px) ;
+    height: auto;
+    background-color: red;
+    float: left;
+    padding: 20px;
+    margin-left: 15px;
+}
+.box7 i{
+    color: white;
+    font-size: 50px;
+}
+.box7 h1{
+    color: white;
+    display: inline-block;
+    margin-left: 100px;
+}
+.box7 h2{
+    color: white;
+    margin-top: 10px;
+}
+.box8{
+    width:calc(25% - 20px) ;
+    height: auto;
+    background-color:#2196F3;
+    float: left;
+    padding: 20px;
+    margin-left: 15px;
+}
+.box8 i{
+    color: white;
+    font-size: 50px;
+}
+.box8 h1{
+    color: white;
+    display: inline-block;
+    margin-left: 100px;
+}
+.box8 h2{
+    color: white;
+    margin-top: 10px;
+}
+.box9{
+    width:calc(25% - 20px) ;
+    height: auto;
+    padding: 20px;
+    background-color: #009688;
+    float: left;
+    margin-left: 15px;
+}
+.box9 i{
+    color: white;
+    font-size: 50px;
+}
+.box9 h1{
+    color: white;
+    display: inline-block;
+    margin-left: 100px;
+}
+.box9 h2{
+    color: white;
+    margin-top: 10px;
+}
+.box10{
+    width:calc(25% - 20px) ;
+    height: auto;
+    padding: 20px;
+    background-color: #FF9800;
+    float: left;
+    margin-left: 15px;
+}
+.box10 i{
+    color: white;
+    font-size: 50px;
+}
+.box10 h1{
+    color: white;
+    display: inline-block;
+    margin-left: 100px;
+}
+.box10 h2{
+    color: white;
+    margin-top: 10px;
+}
+.box12 h2{
+    width: 100px;
+    height: 50px;
+    /* border: 1px solid; */
+    margin-left: 15px;
+    margin-top: 20%;
+}
+.box11{
+    width: 33%;
+    height: 300px;
+    /* border: 1px solid; */
+    /* margin-top: 20%; */
+    margin-left: 15px;
+    background-image: url(https://www.w3schools.com/w3images/region.jpg);
+    background-size: cover;
+    float: left;
+    background-position: center;
+}
+.box14 h2{
+    width: 100px;
+    height: 50px;
+    margin-top: -50px;
+    margin-left: 370px;
+}
+.box13{
+    width:calc(67% - 45px);
+    height: auto;
+    margin-left: 15px;
+    border: 1px solid;
+    display: inline-block;
+}
+.box15{
+    width: 100%;
+    height: 50px;
+    padding: 10px 20px;
+    background-color: white;
+}
+.box15 i{
+    color: #2196F3;
+}
+.box15 p{
+    margin-left: 100px;
+    margin-top: -20px;
+}
+.box15 h4{
+    text-align: end;
+    margin-top: -20px;
+}
+.box16{
+    width: 100%;
+    height: 40px;
+    padding: 10px 20px;
+    background-color: gray;
+}
+.box16 i{
+    color: #2196F3;
+}
+.box16 p{
+    margin-left: 100px;
+    margin-top: -20px;
+}
+.box16 h4{
+    text-align: end;
+    margin-top: -20px;
+}
+.box17{
+    width: 200px;
+    height: 25px;
+    /* border: 1px solid; */
+    margin-top: 80px;
+    font-size: 25px;
+    margin-left: 15px;
+}
+.box18{
+    width: 96%;
+    height: 80px;
+    margin-left: 15px;
+    margin-top: 20px;
+    /* border: 1px solid; */
+}
+.box19{
+    width: 100%;
+    height: 40px;
+    margin-top: 15px;
+    background-color: rgb(167, 167, 167);
+}
+.box20{
+    width: 25%;
+    height: 40px;
+    color: white;
+    padding: 10px 100px;
+    background-color: green;
+}
+.box21{
+    width: 50%;
+    height: 40px;
+    color: white;
+    padding: 10px 200px;
+    background-color: #FF9800;
+}
+.box22{
+    width: 75%;
+    height: 40px;
+    color: white;
+    padding: 10px 350px;
+    background-color: #F44336;
+}
+.box23{
+    width: 100px;
+    height: 30px;
+    /* border: 1px solid; */
+    margin-top: 50px;
+    font-size: 25px;
+    margin-left: 15px;
+}
+.box24{
+    width: 95%;
+    height: auto;
+    margin-left: 15px;
+    margin-top: 10px;
+    border: 1px solid;
+}
+.box25{
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid gray;
+    background-color: white;
+}
+.box25 p{
+    text-align: end;
+    margin-top: -20px;
+}
+.box26{
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid rgb(189, 188, 188);
+    background-color: rgb(220, 218, 218);
+}
+.box26 p{
+    text-align: end;
+    margin-top: -20px;
+}
+.box25:hover{
+    background-color: gray;  
+}
+@media screen and (max-width:990px){
+    .manbox{
+        display: none;
+    }
+}
+@media screen and (max-width:990px){
+    .manbox2{
+        width: 100%;
+    }
+}
+@media screen and (max-width:630px){
+    .box7{
+        width: 100%;
+    }
+    .box8{
+        width: 100%;
+    }.box9{
+        width: 100%;
+    }.box10{
+        width: 100%;
+    }
+}
+@media screen and (max-width:663px){
+    .box11{
+        width: 100%;
+    }
+    .box13{
+        width: 100%;
+        margin-top: 10px;
+    }
+    
+}
